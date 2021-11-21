@@ -65,7 +65,7 @@ clear.addEventListener('click', () => {
 	reset();
 });
 
-window.addEventListener('keypress', (e) => {
+window.addEventListener('keyup', (e) => {
 	if (e.keyCode === 32) {
 		bingo();
 	} else if (e.key === 'r') {
