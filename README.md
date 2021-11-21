@@ -6,3 +6,5 @@ Web based bingo number generator with history
 (keysboard)
 space -> new number
 r -> reset
+
+![alt text](https://imgur.com/jQJZEl4.png)
