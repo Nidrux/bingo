@@ -64,3 +64,13 @@ clear.addEventListener('click', () => {
 	infoWrapper.classList.remove('visible');
 	reset();
 });
+
+window.addEventListener('keypress', (e) => {
+	if (e.keyCode === 32) {
+		bingo();
+	} else if (e.key === 'r') {
+		askReset();
+	} else {
+		return;
+	}
+});
