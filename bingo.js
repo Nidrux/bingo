@@ -13,7 +13,6 @@ let numArray = new Array();
 function bingo() {
 	let n = Math.floor(Math.random() * 99) + 1;
 	if (numArray.length >= 99) {
-		console.log('alles is selected');
 		maxNum();
 	} else if (numArray.includes(n)) {
 		console.log('is already number -> ' + n);
